@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> MHKS | start </title>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="./css/main.css" />
+		<link rel="stylesheet" type="text/css" href="./css/login.css" />
+
+		<script>
+			$(document).ready(function(){
+				$("#password-input").keyup(function(event){
+					if($(this).val().length > 0){
+						$("#continue").animate({opacity: '1.0'}, 100);
+					}
+					else{
+						$("#continue").animate({opacity: '0.0'}, 100);
+					}
+				})
+			})
+		</script>
+
+	</head>
+
+	<body>
+		<div class="content">
+			<h1>
+				have a password?<br><br> 
+			</h1>
+			<div class="password-and-prompt">
+				<h1>
+					enter it here:
+				</h1>
+				<form>
+					<input class="password-input" id="password-input" type="password" autofocus/>
+					<input class="password-submit" type="submit" value="GO"/>
+				</form>	
+			</div>
+			<div class="continue" id="continue">
+				press enter to continue
+			</div>
+		</div>	
+	</body>
+</html>
