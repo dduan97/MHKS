@@ -32,7 +32,8 @@ input.password-input{
 	color: #fff;
 	vertical-align: top;
 	position: relative;
-	top: -15px;
+	/*lol this top thing is so janky just to get it lined up*/
+	top: 40px;
 }
 
 input.password-input:focus{

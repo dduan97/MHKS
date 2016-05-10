@@ -1,0 +1,20 @@
+{
+  "name": "MHKS",
+  "version": "1.0.0",
+  "description": "making ",
+  "main": "server.js",
+  "dependencies": {
+    "express": "4.13.4",
+    "http": "0.0.0",
+    "path": "0.12.7",
+    "ejs": "2.4.1",
+    "password-hash": "1.2.2",
+    "body-parser": "1.15.1"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Dennis Duan",
+  "license": "ISC",
+  "repository": ""
+}
